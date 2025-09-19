@@ -8,7 +8,7 @@ function ComponentAddRoutineForm({users,setuser}) {
     e.preventDefault();
 
     if(!title.trim()){
-      alert("please enter data !!")
+      alert("please enter title !!")
       return;
     }
 
